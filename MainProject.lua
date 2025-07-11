@@ -37,11 +37,11 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local Tab = Window:CreateTab("Main", "house")
+local Main = Window:CreateTab("Main", "house")
 
-local Section = Tab:CreateSection("Player")
+local Player = Tab:CreateSection("Player")
 
-local Toggle = Tab:CreateToggle({
+local Player = Tab:CreateToggle({
    Name = "Walkspeed",
    CurrentValue = false,
    Flag = "Walkspeed", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
@@ -54,7 +54,7 @@ local Toggle = Tab:CreateToggle({
    end,
 })
 
-local Toggle = Tab:CreateToggle({
+local Player = Tab:CreateToggle({
    Name = "Jump Changer",
    CurrentValue = false,
    Flag = "JumpPower2", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
