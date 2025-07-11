@@ -37,7 +37,7 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local Main = Window:CreateTab("Main", "house")
+local Main = Window:CreateTab("Main", "rewind")
 
 local Player = Tab:CreateSection("Player")
 
